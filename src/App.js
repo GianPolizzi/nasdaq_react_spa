@@ -10,7 +10,8 @@ import Cerca from './component/ricerca/Cerca';
 import NomeStock from './component/lista/NomeStock';
 
 const URL_PRINCIPALE = 'https://financialmodelingprep.com/api/v3/profile/';
-const API_KEY = 'apikey=05676d086baedbafecf283058e3777ae';
+const API_KEY = 'apikey=';
+//05676d086baedbafecf283058e3777ae
 
 //Data aggiornata (nel JSON è vecchia)
 const data = new Date();
