@@ -1,0 +1,10 @@
+.nome-stock {
+    padding: 10px;
+    background-color: #CCC;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 0.8em;
+    cursor: pointer;
+}
