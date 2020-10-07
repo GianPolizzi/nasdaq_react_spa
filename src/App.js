@@ -10,8 +10,8 @@ import Cerca from './component/ricerca/Cerca';
 import NomeStock from './component/lista/NomeStock';
 
 const URL_PRINCIPALE = 'https://financialmodelingprep.com/api/v3/profile/';
-const API_KEY = 'apikey=';
-//05676d086baedbafecf283058e3777ae
+//Insert here your API KEY (ReadMeToUseAPIJSON.txt)
+const API_KEY = '05676d086baedbafecf283058e3777ae';
 
 //Data aggiornata (nel JSON è vecchia)
 const data = new Date();
@@ -49,7 +49,7 @@ export default function App() {
   const getDati = async(str) => {
     setShowErr(false);
     setLoading(true);
-    await fetch(URL_PRINCIPALE+str+'?'+API_KEY)
+    await fetch(URL_PRINCIPALE+str+'?apikey='+API_KEY)
     .then(res => res.json())
     .then(res => {
       const [data] = res;
